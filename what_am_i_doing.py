@@ -5,4 +5,6 @@ class damn:
         return "damn" + self.word
     def __repr__(self):
         return "damn {0}".format(self.word)
+    def __str__(self):
+        return f"damn {self.word}"
 damndamn = damn("damn damn")
